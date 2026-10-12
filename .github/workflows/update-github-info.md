@@ -1,6 +1,9 @@
 ---
 name: update-github-info
 description: Keep the GitHub Info site current with practical updates from official GitHub sources.
+engine:
+  id: copilot
+  copilot-sdk: true
 on:
   schedule: daily
   workflow_dispatch:
